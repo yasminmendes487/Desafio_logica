@@ -21,6 +21,6 @@ function gameMatches(vitorias, derrotas) {
   const result = `O Herói tem de saldo de ${saldoVitorias} está no nível de ${level}`;
   return result;
 }
-
+// Exemplo de uso
 const match = gameMatches(10, 5);
 console.log(match);
