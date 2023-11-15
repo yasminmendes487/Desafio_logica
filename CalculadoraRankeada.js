@@ -21,6 +21,6 @@ function gameMatches(vitorias, derrotas) {
   const result = `O Herói tem de saldo de ${saldoVitorias} está no nível de ${level}`;
   return result;
 }
-// Exemplo de uso da função com 25 vitórias e 5 derrotas
+
 const match = gameMatches(10, 5);
 console.log(match);
